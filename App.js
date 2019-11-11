@@ -25,6 +25,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const App: () => React$Node = () => {
+  console.log('I am a console statement')
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -40,32 +41,31 @@ const App: () => React$Node = () => {
           )}
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
-              <Text>Welcome to React</Text>
-              <Text style={styles.sectionTitle}>Step One</Text>
+              <Text>Welcome to Apple Shop</Text>
+              <Text style={styles.sectionTitle}>Airpods Pro</Text>
               <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>App.js</Text> to change this
-                screen and then come back to see your edits.
+                Buy<Text style={styles.highlight}> now</Text> the worst and most expensive shit ever
               </Text>
             </View>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>See Your Changes</Text>
+              <Text style={styles.sectionTitle}>See what is the Changes</Text>
               <Text style={styles.sectionDescription}>
-                <ReloadInstructions />
+                Price + $150
+                <Text> And SHIT SOUND CANCELLING  </Text>
               </Text>
             </View>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Debug</Text>
+              <Text style={styles.sectionTitle}>Apple Technique</Text>
               <Text style={styles.sectionDescription}>
-                <DebugInstructions />
+                Make everyone broke
               </Text>
             </View>
             <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Learn More</Text>
+              <Text style={styles.sectionTitle}>Learn on how to screw ur Life up</Text>
               <Text style={styles.sectionDescription}>
-                Read the docs to discover what to do next:
+               BUY THE NEW AIRPODS PRO
               </Text>
-            </View>
-            <LearnMoreLinks />
+            </View><LearnMoreLinks />
           </View>
         </ScrollView>
       </SafeAreaView>
